@@ -1,0 +1,26 @@
+/*  */
+/*  */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.header-inner-container1 {
+  display: flex;
+  gap: 18px;
+  margin-left: 20px;
+}
+
+.header-inner-container1 img {
+  width: 30px;
+  height: 30px;
+}
+
+.header-inner-container1 h1 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
