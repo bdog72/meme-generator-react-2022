@@ -3,8 +3,10 @@
 
 import React from 'react';
 
-import memesData from '../memeData';
+import { memesData } from '../memeData';
 import '../styles/Meme.css';
+
+console.log(memesData);
 
 export default function Meme() {
   function getNewImage() {

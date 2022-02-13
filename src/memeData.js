@@ -1,7 +1,7 @@
 //
 //
 
-const memesData = {
+export const memesData = {
   success: true,
   data: {
     memes: [
@@ -809,4 +809,4 @@ const memesData = {
   },
 };
 
-export default memesData;
+// export default memesData;
