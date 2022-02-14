@@ -1,31 +1,6 @@
 /*  */
 /*  */
 
-.meme-main {
-  padding: 36px;
-}
-
-.meme-form {
-  display: grid;
-  grid-template: 60px 60px / 1fr 1fr;
-  gap: 17px;
-}
-
-.meme-form--input {
-  font-family: 'Karla', sans-serif;
-  border-radius: 5px;
-  border: 1px solid #d5d4d8;
-  text-indent: 5px;
-}
-
-.meme-form--button {
-  grid-column: 1 / -1;
-  font-family: 'Karla', sans-serif;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 20px;
-  padding: 10px;
+.meme h1 {
+  color: blue;
 }
