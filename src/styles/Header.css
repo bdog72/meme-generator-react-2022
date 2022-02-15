@@ -1,6 +1,28 @@
 /*  */
 /*  */
 
+.header {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 65px;
+  padding: 20px;
+}
+
+.header img {
+  height: 50px;
+}
+
 .header h1 {
-  color: red;
+  margin: 0;
+  /* padding: 20px 0; */
+  color: #fff;
+  font-size: 35px;
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    padding-left: 10px;
+  }
 }

@@ -7,8 +7,9 @@ import '../styles/Header.css';
 
 export default function Header() {
   return (
-    <div className='header'>
-      <h1>Header</h1>
-    </div>
+    <header className='header'>
+      <img className='' src='../images/troll-face.png' alt='' />
+      <h1 className=''>Meme Generator</h1>
+    </header>
   );
 }
