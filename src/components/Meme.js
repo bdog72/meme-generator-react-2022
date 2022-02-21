@@ -9,7 +9,7 @@ export default function Meme() {
   const [meme, setMeme] = React.useState({
     topText: '',
     bottomText: '',
-    randomImage: 'https://i.imgflip.com/28j0te.jpg',
+    randomImage: 'https://i.imgflip.com/21uy0f.jpg',
   });
 
   /* eslint-disable no-unused-vars */
