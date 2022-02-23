@@ -1,0 +1,32 @@
+/*  */
+/*  */
+
+.header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(66, 111, 138, 0.5452556022408963) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  height: 65px;
+  padding: 20px;
+}
+
+.header img {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 35px;
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    padding-left: 10px;
+  }
+}
