@@ -20,6 +20,7 @@ export default function Meme() {
     const memesArray = allMemeImages.data.memes;
     const randomNumber = Math.floor(Math.random() * memesArray.length);
     const url = memesArray[randomNumber].url;
+
     setMeme((prevMeme) => {
       return {
         ...prevMeme,
@@ -27,8 +28,6 @@ export default function Meme() {
       };
     });
   }
-
-  console.log(getMemeImage);
 
   function handleChange(event) {
     const { name, value } = event.target;
@@ -67,7 +66,6 @@ export default function Meme() {
 
       <div className='meme'>
         <img className='meme--image' src={meme.randomImage} alt='' />
-        {/* <img className='meme--image' src={getMemeImage} alt='' /> */}
         <h2 className='meme--text top'>{meme.topText}</h2>
         <h2 className='meme--text bottom'>{meme.bottomText}</h2>
       </div>
